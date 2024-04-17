@@ -1,0 +1,16 @@
+disp("MOHIT KUMAR");
+disp("04076803121");
+x = 0;0;01;1;
+y1 = 1./cos(x);
+y2 = 1./sin(x);
+clf();
+subplot(2,1,1);
+plot(x,y1,'*');
+xlabel("X");
+ylabel("Sec(x)");
+title("Graph of Sec(x)");
+subplot(2,1,2);
+plot(x,y2,'*');
+xlabel("X");
+ylabel("Cosec(x)");
+title("Graph of Cosec(x)");

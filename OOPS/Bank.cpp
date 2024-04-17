@@ -1,0 +1,139 @@
+#include <iostream>
+using namespace std;
+
+// class
+class Bank
+{
+private:
+    int acno;
+    char name[30], atype[10];
+    long balance;
+
+public:
+    void OpenAccount()
+    {
+        cout << "Enter Account Number: ";
+        cin >> acno;
+        cout << "Enter Account Type: ";
+        cin >> atype;
+        cout << "Enter Name: ";
+        cin >> name;
+        cout << "Enter  Balance: ";
+        cin >> balance;
+    }
+    void ShowAccount()
+    {
+        cout << "\nAccount Number: " << acno << endl;
+        cout << "Account Type: " << atype << endl;
+        cout << "Name: " << name << endl;
+        cout << "Balance: " << balance << endl;
+    }
+    void Deposit()
+    {
+        long amt;
+        cout << "Enter Amount U want to deposit? ";
+        cin >> amt;
+        balance = balance + amt;
+    }
+    void Withdrawal()
+    {
+        long amt;
+        cout << "Enter Amount U want to withdraw? ";
+        cin >> amt;
+        if (amt <= balance)
+            balance = balance - amt;
+        else
+            cout << "Less Balance..." << endl;
+    }
+    int Search(int);
+};
+
+int Bank::Search(int a)
+{
+    if (acno == a)
+    {
+        ShowAccount();
+        return (1);
+    }
+    return (0);
+}
+
+// main code
+int main()
+{
+    Bank C[10];
+
+    int found = 0, a, ch, i, j=0;
+
+    do
+    {
+        // display options
+        cout << "\n\n1:Display All\n2:Open Account\n3:Deposit\n4:Withdraw\n5:Exit" << endl;
+
+        // user input
+        cout << "Please input your choice: ";
+        cin >> ch;
+
+        switch (ch)
+        {
+        case 1: // displating account info
+            for (i = 0; i <= j; i++)
+            {
+                C[i].ShowAccount();
+            }
+            break;    
+        case 2:
+            C[j].OpenAccount();
+            j++;
+            break;
+        // case 3: // searching the record
+        //     cout << "Account Number? ";
+        //     cin >> a;
+        //     for (i = 0; i <= 2; i++)
+        //     {
+        //         found = C[i].Search(a);
+        //         if (found)
+        //             break;
+        //     }
+        //     if (!found)
+        //         cout << "Record Not Found" << endl;
+           // break;
+        case 3: // deposit operation
+            cout << "Account Number To Deposit Amount? ";
+            cin >> a;
+            for (i = 0; i <= j; i++)
+            {
+                found = C[i].Search(a);
+                if (found)
+                {
+                    C[i].Deposit();
+                    break;
+                }
+            }
+            if (!found)
+                cout << "Record Not Found" << endl;
+            break;
+        case 4: // withdraw operation
+            cout << "Account Number To Withdraw Amount? ";
+            cin >> a;
+            for (i = 0; i <= j; i++)
+            {
+                found = C[i].Search(a);
+                if (found)
+                {
+                    C[i].Withdrawal();
+                    break;
+                }
+            }
+            if (!found)
+                cout << "Record Not Found" << endl;
+            break;
+        case 5: // exit
+            cout << "Have a Nice day!!" << endl;
+            break;
+        default:
+            cout << "Wrong Option!!" << endl;
+        }
+    } while (ch != 5);
+    return 0;
+}
