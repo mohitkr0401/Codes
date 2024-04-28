@@ -30,7 +30,7 @@ class Q {
     }
 }
 
-class Producer implements Runnable {
+class Producer extends Thread {
     Q q;
 
     Producer(Q q) {
@@ -46,7 +46,7 @@ class Producer implements Runnable {
     }
 }
 
-class Consumer implements Runnable {
+class Consumer extends Thread {
     Q q;
 
     Consumer(Q q) {
@@ -64,9 +64,9 @@ class Consumer implements Runnable {
 class Consumer_Producer {
     public static void main(String[] args) {
         Q q = new Q();
+        System.out.println("Mohit Kumar\nIT-3 \n04076803121");
         new Producer(q);
         new Consumer(q);
-        System.out.println("Mohit Kumar\nIT-3 \n04076803121");
         System.out.println("Press Ctrl-C to stop.");
     }
 }
