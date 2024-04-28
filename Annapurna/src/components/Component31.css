@@ -1,0 +1,27 @@
+.already-a-member,
+.login3 {
+  height: 13px;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+}
+.login3 {
+  height: 12px;
+  width: 76px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  flex-shrink: 0;
+}
+.component-32 {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray);
+  font-family: var(--font-hanuman);
+}

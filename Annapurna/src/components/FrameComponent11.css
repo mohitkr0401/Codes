@@ -1,0 +1,105 @@
+.frame-child52 {
+  width: 390px;
+  height: 200px;
+  position: relative;
+  background-color: var(--color-mediumseagreen);
+  display: none;
+  max-width: 100%;
+}
+.donate5,
+.vector-icon25 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.vector-icon25 {
+  height: 19.8px;
+  width: 11.7px;
+  cursor: pointer;
+}
+.donate5 {
+  display: inline-block;
+  min-width: 55px;
+}
+.vector-group {
+  width: 214px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.search-box {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+}
+.search-an-organisation {
+  width: 227px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.group-icon {
+  height: 16.4px;
+  width: 18.8px;
+  position: relative;
+  display: none;
+  z-index: 2;
+}
+.component-31 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-sm-7) var(--padding-33xl) var(--padding-3xs-3);
+  box-sizing: border-box;
+  white-space: nowrap;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.vector-icon26 {
+  position: absolute;
+  top: 11px;
+  left: 24px;
+  width: 20px;
+  height: 24px;
+  z-index: 2;
+}
+.component-3-parent {
+  width: 342px;
+  height: 47px;
+  position: relative;
+  max-width: 100%;
+  color: var(--color-darkgray);
+}
+.rectangle-parent30 {
+  align-self: stretch;
+  background-color: var(--color-mediumseagreen);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-xl) var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-hanuman);
+}

@@ -1,0 +1,102 @@
+.wrapper-component-60 {
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instance-inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-teal-200);
+}
+.vector-icon33,
+.vector-icon34,
+.vector-icon35 {
+  width: 6.36%;
+  height: 47.17%;
+  position: absolute;
+  margin: 0 !important;
+  top: 20.75%;
+  right: 58.78%;
+  bottom: 32.08%;
+  left: 34.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.vector-icon34,
+.vector-icon35 {
+  width: 5.5%;
+  height: 56.6%;
+  top: 11.32%;
+  right: 6.72%;
+  left: 87.79%;
+}
+.vector-icon35 {
+  width: 7.63%;
+  height: 47.17%;
+  top: 22.64%;
+  right: 86.01%;
+  bottom: 30.19%;
+  left: 6.36%;
+}
+.rectangle-parent40 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 5.66%;
+  right: -1.27%;
+  bottom: -5.66%;
+  left: 1.27%;
+  box-shadow: 0 4px 89px rgba(0, 0, 0, 0.5);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.vector-icon36 {
+  position: absolute;
+  height: 47.17%;
+  width: 6.36%;
+  top: 26.42%;
+  right: 29.01%;
+  bottom: 26.42%;
+  left: 64.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.component-46variant22 {
+  margin-right: -12px;
+  width: 393px;
+  height: 53px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 107%;
+}
+.container {
+  align-self: stretch;
+  height: 101px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) var(--padding-38xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+}

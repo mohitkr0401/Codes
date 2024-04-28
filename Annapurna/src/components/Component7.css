@@ -1,0 +1,53 @@
+.login-button-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+}
+.login-with-google {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.google-sign-in-label {
+  width: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.component-44-child {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+  z-index: 1;
+}
+.component-44 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-2xl) var(--padding-xs)
+    var(--padding-2xs);
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-mediumseagreen);
+  font-family: var(--font-hanuman);
+}

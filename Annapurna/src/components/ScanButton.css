@@ -1,0 +1,84 @@
+.vector-icon30 {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.vector-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.i-assured-that {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 211px;
+  max-width: 100%;
+}
+.assurance-message,
+.frame-parent28 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent28 {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-2xs);
+}
+.assurance-message {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.beverages-label-child {
+  height: 47px;
+  width: calc(100% - 8px);
+  position: absolute;
+  margin: 0 !important;
+  right: 8px;
+  bottom: -31px;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen);
+  cursor: pointer;
+}
+.confirm {
+  width: 125px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.beverages-label,
+.scan-button {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.beverages-label {
+  height: 16px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-xl) 0 var(--padding-18xl);
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.scan-button {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

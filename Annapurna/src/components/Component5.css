@@ -1,0 +1,106 @@
+.component-9-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+.frame-child46 {
+  height: 88px;
+  width: 88.1px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.veg-rice-curry3 {
+  width: 166.1px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.category-prepared1 {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-dimgray);
+  z-index: 1;
+}
+.frame-wrapper9,
+.veg-rice-curry-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.veg-rice-curry-group {
+  align-self: stretch;
+  gap: var(--gap-12xs-9);
+}
+.frame-wrapper9 {
+  height: 44px;
+  flex: 1;
+  padding: var(--padding-4xs-6) 0 0;
+  box-sizing: border-box;
+}
+.rectangle-parent24,
+.sept-15-221 {
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.rectangle-parent24 {
+  width: 308.3px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+}
+.sept-15-221 {
+  align-self: stretch;
+  width: 130.1px;
+  position: relative;
+  display: inline-block;
+}
+.sept-15-22-container {
+  width: 332.3px;
+  height: 24.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-mediumseagreen);
+}
+.vector-icon20 {
+  width: 10.7px;
+  height: 17.9px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 34.7px;
+  z-index: 1;
+}
+.component-9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-lgi-1);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

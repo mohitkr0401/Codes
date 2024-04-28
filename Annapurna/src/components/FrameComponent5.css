@@ -1,0 +1,80 @@
+.scan-your-food {
+  position: relative;
+}
+.scan-food-quality {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.frame-child55 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.add-icon {
+  position: absolute;
+  top: 39px;
+  left: 30px;
+  width: 37px;
+  height: 43px;
+  overflow: hidden;
+  z-index: 1;
+}
+.rectangle-parent33 {
+  height: 120px;
+  flex: 1;
+  position: relative;
+}
+.add-button-child {
+  min-height: 120px;
+}
+.add-button-child,
+.frame-child56 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.add-button-inner {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.add-button,
+.add-button-inner,
+.scan-food-quality-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.add-button {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.scan-food-quality-parent {
+  width: 341px;
+  height: 149px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-hanuman);
+}

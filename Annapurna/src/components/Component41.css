@@ -1,0 +1,33 @@
+.component-31-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -5px;
+  bottom: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+}
+.component-311,
+.donate-as-a {
+  position: relative;
+  white-space: nowrap;
+}
+.donate-as-a {
+  z-index: 1;
+}
+.component-311 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl) var(--padding-xs)
+    var(--padding-12xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-mediumseagreen);
+  font-family: var(--font-hanuman);
+}

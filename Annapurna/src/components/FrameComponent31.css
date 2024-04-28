@@ -1,0 +1,69 @@
+.welcome-to-annapurna {
+  margin: 0;
+  align-self: stretch;
+  height: 73px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.share-your-food {
+  width: 311px;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-gray);
+  display: inline-block;
+}
+.welcome-to-annapurna-parent {
+  width: 321px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.component-32-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray);
+}
+.component-31-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--color-mediumseagreen);
+}
+.frame-parent31,
+.splash-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent31 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-43xl);
+}
+.splash-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-9xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-hanuman);
+}

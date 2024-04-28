@@ -1,0 +1,136 @@
+.component-instance-child {
+  box-shadow: 0 4px 89px rgba(0, 0, 0, 0.58);
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro);
+}
+.component-instance-child,
+.component-instance-item,
+.component-instance2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.component-instance-item {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.component-instance2 {
+  margin: 0 !important;
+}
+.component-3-child {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.change-button-icon,
+.component-3-child,
+.the-food-center2 {
+  position: relative;
+  z-index: 2;
+}
+.change-button-icon {
+  width: 20px;
+  height: 24px;
+}
+.change-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.the-food-you2 {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  white-space: pre-wrap;
+  z-index: 2;
+}
+.frame-parent16,
+.the-food-center-group {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent16 {
+  flex-direction: row;
+  gap: var(--gap-lg);
+  margin-top: -7px;
+  font-size: var(--font-size-sm);
+}
+.the-food-center-group {
+  flex-direction: column;
+}
+.component {
+  height: 47px;
+  width: 117px;
+  position: absolute;
+  margin: 0 !important;
+  top: -11px;
+  left: -21px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-mediumseagreen);
+  cursor: pointer;
+  z-index: 2;
+}
+.donate3 {
+  position: relative;
+  display: inline-block;
+  min-width: 76px;
+  z-index: 3;
+}
+.component-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.food-can-inner {
+  flex-direction: row;
+  padding: 0 var(--padding-24xl) 0 var(--padding-31xl);
+  color: var(--color-white);
+}
+.component-3,
+.food-can,
+.food-can-inner,
+.food-can-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.food-can {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+}
+.component-3,
+.food-can-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xl) 0 var(--padding-lg);
+}
+.component-3 {
+  width: 213px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

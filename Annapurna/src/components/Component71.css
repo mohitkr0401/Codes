@@ -1,0 +1,110 @@
+.component-82-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+}
+.frame-child71 {
+  height: 33px;
+  width: 33px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.veg-rice-curry4,
+.we-share {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.we-share {
+  line-height: 15px;
+  min-width: 68px;
+}
+.veg-rice-curry4 {
+  font-size: var(--font-size-2xs);
+  color: var(--color-darkslategray-100);
+  min-width: 80px;
+}
+.we-share-parent {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.ellipse-parent2,
+.frame-wrapper23,
+.we-share-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper23 {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.ellipse-parent2 {
+  flex-direction: row;
+  gap: var(--gap-9xl);
+}
+.days-ago,
+.days-ago-set {
+  position: relative;
+  z-index: 1;
+}
+.days-ago-set {
+  height: 11px;
+  width: 13px;
+  min-height: 11px;
+}
+.days-ago {
+  height: 9px;
+  display: inline-block;
+  min-width: 53px;
+}
+.days-ago-set-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.date-10102023 {
+  position: relative;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.frame-parent42 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-3xs);
+  color: var(--color-darkslategray-300);
+}
+.component-82 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-3xs) var(--padding-3xs)
+    var(--padding-2xs);
+  position: relative;
+  gap: var(--gap-xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-mediumseagreen);
+  font-family: var(--font-hanuman);
+}

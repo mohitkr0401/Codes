@@ -1,0 +1,136 @@
+.b1,
+.my-donations1 {
+  position: relative;
+  display: inline-block;
+}
+.my-donations1 {
+  line-height: 20px;
+  min-width: 111px;
+}
+.b1 {
+  width: 32px;
+  line-height: 16px;
+  color: var(--color-mediumseagreen);
+  flex-shrink: 0;
+}
+.frame-wrapper10,
+.my-donations-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.my-donations-parent {
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.frame-wrapper10 {
+  padding: 0 var(--padding-11xs);
+}
+.instance-item {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-teal-200);
+}
+.vector-icon21,
+.vector-icon22,
+.vector-icon23 {
+  width: 6.36%;
+  height: 47.17%;
+  position: absolute;
+  margin: 0 !important;
+  top: 20.75%;
+  right: 58.78%;
+  bottom: 32.08%;
+  left: 34.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.vector-icon22,
+.vector-icon23 {
+  width: 5.5%;
+  height: 56.6%;
+  top: 11.32%;
+  right: 6.72%;
+  left: 87.79%;
+}
+.vector-icon23 {
+  width: 7.63%;
+  height: 47.17%;
+  top: 22.64%;
+  right: 86.01%;
+  bottom: 30.19%;
+  left: 6.36%;
+}
+.rectangle-parent25 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 5.66%;
+  right: -1.27%;
+  bottom: -5.66%;
+  left: 1.27%;
+  box-shadow: 0 4px 89px rgba(0, 0, 0, 0.5);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.component-instance-icon {
+  position: absolute;
+  height: 47.17%;
+  width: 6.36%;
+  top: 26.42%;
+  right: 29.01%;
+  bottom: 26.42%;
+  left: 64.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.component-46variant21 {
+  width: 393px;
+  height: 53px;
+  position: absolute;
+  margin: 0 !important;
+  right: -26px;
+  bottom: 42px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-parent20,
+.veg-rice-curry-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.veg-rice-curry-name {
+  align-self: stretch;
+  overflow-y: auto;
+  position: relative;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.frame-parent20 {
+  height: 365px;
+  flex: 1;
+  padding: 0 0 var(--padding-326xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

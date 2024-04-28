@@ -1,0 +1,19 @@
+.vector-icon24 {
+  position: absolute;
+  height: 30.36%;
+  width: 7.62%;
+  top: 36.36%;
+  right: 4.27%;
+  bottom: 33.27%;
+  left: 88.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.full-name-label2 {
+  align-self: stretch;
+  height: 55px;
+  position: relative;
+  z-index: 2;
+}

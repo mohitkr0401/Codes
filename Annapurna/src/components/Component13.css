@@ -1,0 +1,29 @@
+.component-62-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen);
+}
+.food-icon {
+  position: absolute;
+  height: 50.79%;
+  width: 47.76%;
+  top: 25.4%;
+  right: 25.37%;
+  bottom: 23.81%;
+  left: 26.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.component-62 {
+  height: 63px;
+  flex: 1;
+  position: relative;
+}

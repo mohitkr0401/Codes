@@ -1,0 +1,139 @@
+.frame-child42,
+.frame-child43 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 89px rgba(0, 0, 0, 0.58);
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro);
+}
+.frame-child43 {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+.rectangle-parent21,
+.the-food-you3 {
+  position: absolute;
+  margin: 0 !important;
+}
+.rectangle-parent21 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.the-food-you3 {
+  width: 131px;
+  height: 41px;
+  right: 26px;
+  bottom: 70px;
+  font-weight: 300;
+  white-space: pre-wrap;
+  display: inline-block;
+  z-index: 3;
+}
+.component-5-child,
+.the-food-center3 {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.component-5-child {
+  flex: 1;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.the-food-center3 {
+  height: 31px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.vector-icon14 {
+  width: 20px;
+  height: 24px;
+  position: relative;
+  z-index: 2;
+}
+.the-food-center-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child44 {
+  height: 47px;
+  width: 117px;
+  position: absolute;
+  margin: 0 !important;
+  top: -11px;
+  left: -21px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-mediumseagreen);
+  cursor: pointer;
+  z-index: 2;
+}
+.donate4 {
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.frame-wrapper8,
+.rectangle-parent22 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.rectangle-parent22 {
+  width: 76px;
+  justify-content: flex-start;
+  position: relative;
+}
+.frame-wrapper8 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-21xl);
+  color: var(--color-white);
+}
+.component-5-inner,
+.component-51,
+.frame-parent17 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent17 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.component-5-inner,
+.component-51 {
+  width: 202px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.component-51 {
+  align-self: stretch;
+  width: 213px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lg);
+  position: relative;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

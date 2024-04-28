@@ -1,0 +1,128 @@
+.frame-child40,
+.frame-child41 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 89px rgba(0, 0, 0, 0.58);
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro);
+  width: 213px;
+  height: 284px;
+}
+.frame-child41 {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+.rectangle-parent20 {
+  width: 100%;
+  height: 254px;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.rectangle-parent20,
+.the-food-you1,
+.vector-icon13 {
+  position: absolute;
+  margin: 0 !important;
+}
+.vector-icon13 {
+  width: 20px;
+  height: 24px;
+  bottom: 80px;
+  left: 18px;
+  z-index: 2;
+}
+.the-food-you1 {
+  width: 131px;
+  height: 41px;
+  right: 26px;
+  bottom: 70px;
+  font-size: var(--font-size-sm);
+  font-weight: 300;
+  white-space: pre-wrap;
+  display: inline-block;
+  z-index: 3;
+}
+.r-e-c-t-a-n-g-l-e-content-area {
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.r-e-c-t-a-n-g-l-e-content-area,
+.the-food-center1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.component-header,
+.f-r-a-m-e-organization-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.f-r-a-m-e-organization-details {
+  width: 202px;
+  height: 31px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.component-header {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.r-e-c-t-a-n-g-l-e-options-butt {
+  height: 47px;
+  width: 117px;
+  position: absolute;
+  margin: 0 !important;
+  top: -11px;
+  left: -21px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-mediumseagreen);
+  cursor: pointer;
+  z-index: 2;
+}
+.donate2 {
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.f-r-a-m-e-user-location-servic {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.component-5,
+.f-r-a-m-e-user-location-servic-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-50xl) 0 var(--padding-49xl);
+  color: var(--color-white);
+}
+.component-5 {
+  width: 213px;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-37xl);
+  debug_commit: 1de1738;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

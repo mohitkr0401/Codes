@@ -1,0 +1,30 @@
+.skip {
+  position: relative;
+  line-height: 17px;
+  display: inline-block;
+  min-width: 34px;
+}
+.group-icon3 {
+  width: 19px;
+  height: 13px;
+  position: relative;
+}
+.component-53,
+.group-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.component-53 {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-xs);
+  cursor: pointer;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-hanuman);
+}

@@ -1,0 +1,24 @@
+.component-54-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi) 0 var(--padding-8xl);
+}
+.onboard-1 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) var(--padding-sm) var(--padding-105xl);
+  box-sizing: border-box;
+  gap: 635px;
+  line-height: normal;
+  letter-spacing: normal;
+}

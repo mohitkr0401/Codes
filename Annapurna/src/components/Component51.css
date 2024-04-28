@@ -1,0 +1,34 @@
+.component-11-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+}
+.hii-your-donation {
+  height: 24.5px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.component-11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-smi) var(--padding-smi-5)
+    var(--padding-3xl);
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

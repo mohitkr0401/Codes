@@ -1,0 +1,247 @@
+.frame-child1,
+.line-div {
+  position: relative;
+  box-sizing: border-box;
+}
+.line-div {
+  align-self: stretch;
+  width: 353px;
+  border-top: 1px solid var(--color-dimgray-100);
+  max-width: 100%;
+}
+.frame-child1 {
+  height: 1px;
+  width: 67px;
+  border-top: 1px solid var(--color-mediumseagreen);
+  z-index: 2;
+  margin-left: -283px;
+}
+.line-parent {
+  width: 352px;
+  height: 1px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 264px;
+  left: calc(50% - 176px);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.food-title {
+  width: 98px;
+  position: relative;
+  display: inline-block;
+}
+.salads-2-pizza {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.salads-2-pizza-1-pie-wrapper {
+  width: 203px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.frame-child2 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+}
+.food-title-parent,
+.frame-parent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent3 {
+  color: var(--color-black);
+}
+.food-title-parent {
+  gap: var(--gap-7xs);
+}
+.pick-up-date {
+  position: relative;
+  display: inline-block;
+  min-width: 103px;
+}
+.sept-2023 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.sept-2023-wrapper {
+  width: 203px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.frame-child3 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+}
+.frame-parent4 {
+  align-self: stretch;
+  flex-direction: column;
+  color: var(--color-black);
+}
+.frame-parent2,
+.frame-parent4,
+.frame-wrapper1,
+.pick-up-date-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pick-up-date-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.frame-parent2,
+.frame-wrapper1 {
+  max-width: 100%;
+}
+.frame-parent2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.frame-wrapper1 {
+  width: 354px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-7xs);
+  box-sizing: border-box;
+}
+.pm,
+.pm1,
+.time {
+  width: 98px;
+  position: relative;
+  display: inline-block;
+}
+.pm,
+.pm1 {
+  width: 47px;
+  flex-shrink: 0;
+}
+.meal-selection-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.salads-pizza-pie,
+.salads-pizza-pie1 {
+  height: 14px;
+  width: 13px;
+  position: relative;
+  min-height: 14px;
+  z-index: 1;
+}
+.salads-pizza-pie-group {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper4,
+.meal-selection-container-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper4 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl) 0 var(--padding-smi);
+}
+.meal-selection-container-parent {
+  width: 141px;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-12xs);
+}
+.frame-wrapper3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  color: var(--color-black);
+}
+.frame-wrapper2,
+.time-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.time-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frame-wrapper2 {
+  width: 165px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.my-donations-inner,
+.salads-pizza-pie-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.salads-pizza-pie-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-hanuman);
+}
+.my-donations-inner {
+  width: 377px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.my-donations {
+  width: 100%;
+  position: relative;
+  border-radius: 13px;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 29px;
+  line-height: normal;
+  letter-spacing: normal;
+}

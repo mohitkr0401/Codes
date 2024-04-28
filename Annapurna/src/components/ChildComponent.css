@@ -1,0 +1,44 @@
+.child-component-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.child-component-item {
+  position: absolute;
+  height: 12.86%;
+  width: 21.28%;
+  top: 84.82%;
+  right: 4.62%;
+  bottom: 2.32%;
+  left: 74.1%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.32);
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  z-index: 1;
+}
+.vector-icon31 {
+  position: absolute;
+  height: 6.79%;
+  width: 7.69%;
+  top: 87.86%;
+  right: 11.28%;
+  bottom: 5.36%;
+  left: 81.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.child-component {
+  align-self: stretch;
+  height: 560px;
+  position: relative;
+}

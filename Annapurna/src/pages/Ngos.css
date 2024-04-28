@@ -1,0 +1,25 @@
+.ngos,
+.ngos-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.ngos-inner {
+  width: 378px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.ngos {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  overflow-y: auto;
+  flex-direction: column;
+  padding: var(--padding-54xl) 0 var(--padding-9xs);
+  gap: 13.5px;
+  line-height: normal;
+  letter-spacing: normal;
+}

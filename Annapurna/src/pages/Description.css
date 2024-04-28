@@ -1,0 +1,122 @@
+.about {
+  width: 135px;
+  position: relative;
+  display: inline-block;
+}
+.dummy-text-is {
+  margin: 0;
+}
+.dummy-text-is-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 13px;
+}
+.about-parent,
+.frame-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.about-parent {
+  width: 345px;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.frame-section {
+  align-self: stretch;
+  gap: var(--gap-16xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}
+.frame-child5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.donate {
+  position: absolute;
+  top: 12px;
+  left: 36px;
+  font-weight: 600;
+  display: inline-block;
+  width: 57px;
+  height: 20px;
+  min-width: 57px;
+  z-index: 1;
+}
+.rectangle-parent2 {
+  height: 47px;
+  width: 129px;
+  position: relative;
+}
+.frame-child6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-mediumseagreen);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.message-us {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  font-weight: 600;
+  display: inline-block;
+  width: 96px;
+  height: 20px;
+  min-width: 96px;
+  z-index: 1;
+}
+.rectangle-parent3 {
+  height: 47px;
+  width: 129px;
+  position: relative;
+  white-space: nowrap;
+  color: var(--color-mediumseagreen);
+}
+.description,
+.frame-parent5 {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent5 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-lgi) 0 0;
+  gap: var(--gap-xl);
+}
+.description {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  overflow-y: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-54xl) var(--padding-3xs) var(--padding-33xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: 126px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

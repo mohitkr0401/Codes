@@ -1,0 +1,107 @@
+.onboarding3-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ellipse-div,
+.frame-child8,
+.frame-child9 {
+  background-color: var(--color-mediumseagreen);
+  height: 10px;
+  z-index: 1;
+}
+.ellipse-div {
+  width: 10px;
+  position: relative;
+  border-radius: 50%;
+}
+.frame-child8,
+.frame-child9 {
+  position: absolute;
+  top: 0;
+}
+.frame-child8 {
+  left: 0;
+  border-radius: 50%;
+  width: 10px;
+}
+.frame-child9 {
+  left: 20px;
+  border-radius: var(--br-lg);
+  width: 23px;
+}
+.ellipse-group {
+  height: 10px;
+  width: 43px;
+  position: relative;
+}
+.ellipse-parent,
+.onboarding3-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ellipse-parent {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.onboarding3-inner {
+  width: 303px;
+  justify-content: center;
+}
+.frame-child10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumseagreen);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.get-started {
+  position: absolute;
+  top: 11px;
+  left: 125px;
+  display: inline-block;
+  width: 80px;
+  height: 21px;
+  min-width: 80px;
+  z-index: 2;
+}
+.rectangle-parent5 {
+  align-self: stretch;
+  height: 43px;
+  position: relative;
+  white-space: nowrap;
+}
+.onboarding3 {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 628px var(--padding-14xl) var(--padding-105xl) var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-28xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-hanuman);
+}

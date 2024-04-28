@@ -1,0 +1,32 @@
+.organizations-near-you {
+  width: 244px;
+  position: relative;
+  display: inline-block;
+}
+.f-r-a-m-e-sharing-details,
+.organizations-near-you-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.f-r-a-m-e-sharing-details {
+  width: 373px;
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.organizations-near-you-parent {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  height: 320px;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

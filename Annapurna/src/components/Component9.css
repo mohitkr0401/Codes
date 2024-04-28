@@ -1,0 +1,27 @@
+.re-enter-your-password {
+  position: relative;
+  font-weight: 300;
+  z-index: 2;
+}
+.full-name-label3,
+.re-enter-your-password-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.re-enter-your-password-wrapper {
+  flex-direction: column;
+  padding: var(--padding-xl) 0 0;
+  margin-left: -311px;
+}
+.full-name-label3 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+  font-family: var(--font-hanuman);
+}

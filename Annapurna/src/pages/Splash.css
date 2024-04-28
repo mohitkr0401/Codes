@@ -1,0 +1,33 @@
+.frame-child7,
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frame-child7 {
+  z-index: 1;
+}
+.rectangle-parent4 {
+  align-self: stretch;
+  height: 427px;
+  position: relative;
+}
+.splash {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumseagreen);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 142px;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  line-height: normal;
+  letter-spacing: normal;
+}

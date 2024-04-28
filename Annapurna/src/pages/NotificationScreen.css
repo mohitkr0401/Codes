@@ -1,0 +1,78 @@
+.frame-child23 {
+  height: 125px;
+  width: 393px;
+  position: relative;
+  background-color: var(--color-mediumseagreen);
+  display: none;
+  max-width: 100%;
+}
+.vector-icon4 {
+  height: 19.8px;
+  width: 11.7px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.notification1 {
+  margin: 0;
+}
+.notification {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.booking-scheduler-parent,
+.frame-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 100%;
+}
+.frame-header {
+  align-self: stretch;
+  background-color: var(--color-mediumseagreen);
+  flex-direction: row;
+  padding: var(--padding-43xl) var(--padding-xl) var(--padding-20xl);
+  box-sizing: border-box;
+  gap: 114.3px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-hanuman);
+}
+.booking-scheduler-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.notification-screen,
+.notification-screen-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.notification-screen-inner {
+  width: 371px;
+  flex-direction: row;
+  padding: 0 var(--padding-mid);
+  max-width: 100%;
+}
+.notification-screen {
+  width: 100%;
+  height: 852px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  overflow-y: auto;
+  flex-direction: column;
+  padding: 0 0 var(--padding-708xl);
+  gap: var(--gap-13xl);
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,110 @@
+.frame-child68 {
+  width: 393px;
+  height: 200px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-mediumseagreen);
+  display: none;
+  max-width: 100%;
+}
+.search,
+.vector-icon43 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 1;
+}
+.vector-icon43 {
+  height: 19.8px;
+  width: 11.7px;
+  cursor: pointer;
+}
+.search {
+  display: inline-block;
+  min-width: 62px;
+}
+.vector-parent3 {
+  width: 213px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+}
+.component-11-item {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+}
+.search-an-organisation1 {
+  width: 233px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.group-icon1 {
+  height: 16.4px;
+  width: 19.3px;
+  position: relative;
+  display: none;
+  z-index: 2;
+}
+.component-111 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-sm-7) var(--padding-34xl-3) var(--padding-3xs-3)
+    var(--padding-34xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.group-icon2 {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  width: 18.8px;
+  height: 19.2px;
+  z-index: 2;
+}
+.component-11-parent {
+  align-self: stretch;
+  height: 47px;
+  position: relative;
+  color: var(--color-darkgray);
+}
+.rectangle-parent42 {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-mediumseagreen);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-xl) var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-hanuman);
+}

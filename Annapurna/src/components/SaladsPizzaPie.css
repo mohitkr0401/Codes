@@ -1,0 +1,138 @@
+.component-62-wrapper {
+  width: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.prepared-food {
+  position: relative;
+  display: inline-block;
+  min-width: 120px;
+}
+.frame-parent25 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-child53 {
+  height: 63px;
+  width: 67px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.vector-icon28 {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  z-index: 1;
+}
+.rectangle-parent31 {
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-xl) var(--padding-2xl)
+    var(--padding-2xl);
+}
+.fruit3 {
+  flex: 1;
+  position: relative;
+}
+.fruit-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+}
+.frame-parent24,
+.frame-parent26,
+.fruit-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent26 {
+  width: 67px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  margin-left: -5px;
+}
+.frame-parent24 {
+  flex: 1;
+  flex-direction: row;
+  min-width: 118px;
+}
+.frame-child54 {
+  height: 63px;
+  width: 67px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.vector-icon29 {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  z-index: 1;
+}
+.frame-wrapper11,
+.rectangle-parent32 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent32 {
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro-100);
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-mid)
+    var(--padding-2xl);
+}
+.frame-wrapper11 {
+  padding: 0 var(--padding-2xs) 0 var(--padding-7xs);
+}
+.bevrages {
+  align-self: stretch;
+  position: relative;
+}
+.component-10-parent,
+.frame-parent27,
+.salads-pizza-pie2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent27 {
+  width: 84px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.component-10-parent,
+.salads-pizza-pie2 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.component-10-parent {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-base-5);
+}
+.salads-pizza-pie2 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-6xs) var(--padding-12xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-hanuman);
+}

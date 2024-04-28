@@ -1,0 +1,35 @@
+.component-66-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+}
+.div2 {
+  height: 11px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.component-66 {
+  width: 74px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-2xs) var(--padding-smi)
+    var(--padding-lg);
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-hanuman);
+}

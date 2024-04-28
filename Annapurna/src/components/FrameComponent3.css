@@ -1,0 +1,24 @@
+.or-sign-in {
+  position: relative;
+  z-index: 2;
+}
+.frame-parent23,
+.or-sign-in-with-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.or-sign-in-with-wrapper {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-33xl);
+}
+.frame-parent23 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-mediumseagreen);
+  font-family: var(--font-hanuman);
+}
