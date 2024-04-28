@@ -8,32 +8,39 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Array methods
 
-// myArr.push(6)
+// myArr.push(6) // insert  at last index
 // myArr.push(7)
-// myArr.pop()
+// myArr.pop() // remove  from last index
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9)  // add element to the beginning of an array
+// myArr.shift()    // remove first element in an array
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(3));
+// console.log(myArr.includes(9));    // check if a value is present or not
+// console.log(myArr.indexOf(3));      // return the first occurrence position of a specified value
 
-// const newArr = myArr.join()
+// const newArr = myArr.join()    // convert into string and join with a string (by default it joins using comma)
 
-// console.log(myArr);
-// console.log( newArr);
+
+
+// console.log(myArr); 
+// console.log( newArr); 
 
 
 // slice, splice
 
+
+// splice method - used to change the contents of an array by removing or replacing existing elements and/or adding new elements in place
+
+
+
 console.log("A ", myArr);
 
-const myn1 = myArr.slice(1, 3)
+const myn1 = myArr.slice(1, 3) // returns  a new arrray and does not affect the original one, but not including end index
 
 console.log(myn1);
 console.log("B ", myArr);
 
 
-const myn2 = myArr.splice(1, 3)
+const myn2 = myArr.splice(1, 3) // removes the elements  and returns them in an array, actual array is changed
 console.log("C ", myArr);
 console.log(myn2);
