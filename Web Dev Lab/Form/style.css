@@ -1,146 +1,144 @@
-body{
-    background: url("https://img.freepik.com/premium-vector/abstract-gradient-background_690841-650.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    box-sizing: border-box;
-    height: 100vh;
-    background-size: cover;
-    overflow: hidden;
+body {
+  background: url("https://img.freepik.com/premium-vector/abstract-gradient-background_690841-650.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
 }
-.mainconatiner{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    width: 40%;
-    opacity: 0.85;
-    height: auto;
-    padding: 20px;
-    margin:auto;
-    border-radius: 10px;
-    box-shadow: 3px 3px 7px 2px rgb(100, 100, 100);
+.mainconatiner {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  opacity: 0.85;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px 2px rgb(100, 100, 100);
 }
-.head{
-    text-align: center;
-    color: #ffffff;
-    border-radius: 20px 20px 0px 0px ;
-    
+.head {
+  text-align: center;
+  color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
 }
-.head>h2{
-    margin: auto;
-    margin-top: 20px;
-    background-color: rgb(243, 123, 155);
-    padding: 10px;
-    width: 30%;
-    border-radius: 10px;
+.head > h2 {
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(243, 123, 155);
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
 }
-.reg_form{
-    margin: auto;
-    padding: 20px;
-    margin-top: 20px;
+.reg_form {
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
 }
 .container header {
-    font-size: 1.5rem;
-    color: #ca2c20;
-    font-weight: 500;
-    text-align: center;
-  }
-  .container .form {
-    margin-top: 30px;
-  }
-  .form .input-box {
-    width: 80%;
-    margin-top: 20px;
-  }
-  .input-box label {
-    color: #322303;
-  }
-  
-  .form :where(.input-box input, .select-box) {
-    
-    position: relative;
-    height: 30px;
-    width: 80%;
-    outline: none;
-    font-size: 1rem;
-    color: #000000;
-    margin-top: 8px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    padding: 0 15px;
-    background-color: rgb(240, 240, 240);
-    opacity: 0.8;
-  }
-  .input-box input:focus {
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-  }
+  font-size: 1.5rem;
+  color: #ca2c20;
+  font-weight: 500;
+  text-align: center;
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 80%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #322303;
+}
+
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 30px;
+  width: 80%;
+  outline: none;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 0 15px;
+  background-color: rgb(240, 240, 240);
+  opacity: 0.8;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(120, 106, 248);
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: #7c7b80;
+  background-color: #ebf0f5;
+}
+.form button {
+  position: relative;
+  left: 30%;
+  height: 45px;
+  width: 40%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(250, 72, 56);
+}
+
+.form button:hover {
+  background: rgb(159, 21, 8);
+}
+/*Responsive*/
+@media screen and (max-width: 500px) {
   .form .column {
-    display: flex;
-    column-gap: 15px;
-  }
-  .form .gender-box {
-    margin-top: 20px;
-  }
-  .gender-box h3 {
-    color: #333;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 8px;
-  }
-  .form :where(.gender-option, .gender) {
-    display: flex;
-    align-items: center;
-    column-gap: 50px;
     flex-wrap: wrap;
   }
-  .form .gender {
-    column-gap: 5px;
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
   }
-  .gender input {
-    accent-color: rgb(120, 106, 248);
-  }
-  .form :where(.gender input, .gender label) {
-    cursor: pointer;
-  }
-  .gender label {
-    color: #707070;
-  }
-  .address :where(input, .select-box) {
-    margin-top: 15px;
-  }
-  .select-box select {
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    font-size: 1rem;
-    color: #7c7b80;
-  }
-  .form button {
-    position: relative;
-    left: 30%;
-    height: 45px;
-    width: 40%;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 30px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    background: rgb(250, 72, 56);
-  
-  }
-  
-  .form button:hover {
-    background: rgb(159, 21, 8);
-  }
-  /*Responsive*/
-  @media screen and (max-width: 500px) {
-    .form .column {
-      flex-wrap: wrap;
-    }
-    .form :where(.gender-option, .gender) {
-      row-gap: 15px;
-    }
-  }
+}
