@@ -11,6 +11,7 @@ class Chat_Client {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             while (true) {
                 System.out.println("Your Message : ");
+                @SuppressWarnings("resource")
                 Scanner input = new Scanner(System.in);
                 out.println(input.nextLine());
                 String response = in.readLine();

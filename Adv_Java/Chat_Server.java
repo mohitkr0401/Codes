@@ -3,6 +3,7 @@ import java.net.*;
 import java.util.*;
 
 class Chat_Server {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         System.out.println("Mohit Kumar\nIT-3 \n04076803121");
         try {
