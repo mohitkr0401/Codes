@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.applet.*;
 
-/* <applet code=AppletConcept width=700 height=400> </applet> */
+/* <applet code=AppletConcept width=600 height=300> </applet> */
 
 public class AppletConcept extends Applet {
     Label l1;
@@ -9,11 +9,13 @@ public class AppletConcept extends Applet {
 
     public void init() {
         l1 = new Label("Hello!!! Friends");
-        l2 = new Label("Created By Mohit Kumar | 04076803121 | IT-3");
         l1.setBackground(Color.red);
+        l1.setForeground(Color.white);
+        l1.setFont(new Font("Arial", Font.BOLD, 24));
+        l2 = new Label("Created By Mohit Kumar | 04076803121 | IT-3");
         l2.setBackground(Color.cyan);
-        l1.setForeground(Color.white); // set the foreground color of l1 to white
         l2.setForeground(Color.black);
+        l2.setFont(new Font("Arial", Font.BOLD, 20));
         add(l1);
         add(l2);
     }
