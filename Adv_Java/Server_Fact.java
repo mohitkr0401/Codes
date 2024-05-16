@@ -2,6 +2,7 @@ import java.io.*;
 import java.net.*;
 
 public class Server_Fact {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         System.out.println("Mohit Kumar\nIT-3 \n04076803121");
         try {

@@ -86,6 +86,7 @@ class Library {
 
 class User {
     private String name;
+    @SuppressWarnings("unused")
     private int libraryCardNumber;
     private List<Book> borrowedBooks;
 

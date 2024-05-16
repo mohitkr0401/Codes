@@ -1,25 +1,35 @@
 import java.io.*;
 import java.net.*;
-import java.util.*;
+import java.util.Scanner;
 
-class Chat_Client {
+public class Chat_Client {
     public static void main(String[] args) {
-        System.out.println("Mohit Kumar\nIT-3 \n04076803121");
-        try (Socket socket = new Socket("localHost", 12345)) {
-            System.out.println("Connection Established !!");
-            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+        System.out.println("Yash Singhal | IT-3 | 00876803121");
+        try (Socket socket = new Socket("localhost", 12345);
+                PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
+                BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter your username: ");
+            String username = scanner.nextLine();
+            writer.println(username);
+            Thread readerThread = new Thread(() -> {
+                try {
+                    String message;
+                    while ((message = reader.readLine()) != null) {
+                        System.out.println(message);
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            });
+            readerThread.start();
+            System.out.println("Connected to the server. You can start chatting.");
             while (true) {
-                System.out.println("Your Message : ");
-                @SuppressWarnings("resource")
-                Scanner input = new Scanner(System.in);
-                out.println(input.nextLine());
-                String response = in.readLine();
-                System.out.println("Server : " + response);
+                String message = scanner.nextLine();
+                writer.println(message);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

@@ -20,6 +20,7 @@ class Student {
 }
 
 public class ExceptionHandling {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

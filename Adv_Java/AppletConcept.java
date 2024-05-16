@@ -8,14 +8,14 @@ public class AppletConcept extends Applet {
     Label l2;
 
     public void init() {
-        l1 = new Label("Hello!!! Friends");
-        l1.setBackground(Color.red);
+        l1 = new Label("Hello!!! World!!");
+        l1.setBackground(Color.blue);
         l1.setForeground(Color.white);
-        l1.setFont(new Font("Arial", Font.BOLD, 24));
-        l2 = new Label("Created By Mohit Kumar | 04076803121 | IT-3");
-        l2.setBackground(Color.cyan);
+        l1.setFont(new Font("Times New Roman", Font.BOLD, 24));
+        l2 = new Label("Created By Prachi Sachdeva | 02176803121 | IT-3");
+        l2.setBackground(Color.yellow);
         l2.setForeground(Color.black);
-        l2.setFont(new Font("Arial", Font.BOLD, 20));
+        l2.setFont(new Font("Times New Roman", Font.BOLD, 20));
         add(l1);
         add(l2);
     }

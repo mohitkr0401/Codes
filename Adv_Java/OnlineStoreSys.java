@@ -71,12 +71,10 @@ class ShoppingCart {
 
 class User {
     private String username;
-    private String email;
     ShoppingCart shoppingCart;
 
     public User(String username, String email) {
         this.username = username;
-        this.email = email;
         this.shoppingCart = new ShoppingCart();
     }
 
