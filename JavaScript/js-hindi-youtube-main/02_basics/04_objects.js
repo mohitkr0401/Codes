@@ -73,10 +73,12 @@ console.log(instructor);
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
+// JASON format, how data is stored in json.
 
 [
     {},
     {},
     {}
 ]
-
+   
+// also json format, or in an API.
