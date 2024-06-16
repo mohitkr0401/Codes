@@ -27,3 +27,5 @@ switch (month) {
         console.log("default case match");
         break;
 }
+
+// if no break then everything will be executed except the default.

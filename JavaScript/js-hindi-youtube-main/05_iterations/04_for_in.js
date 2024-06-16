@@ -24,3 +24,5 @@ for (const key in programming) {
 // for (const key in map) {
 //     console.log(key);
 // }
+// map pr forin loop nhi chalega
+// cannot use map in for in loop, will print nothing

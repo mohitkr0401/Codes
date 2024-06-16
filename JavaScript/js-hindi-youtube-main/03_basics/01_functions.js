@@ -49,7 +49,7 @@ const user = {
     username: "hitesh",
     prices: 199
 }
-
+// passing object as parameter.  
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
@@ -61,7 +61,7 @@ handleObject({
 })
 
 const myNewArray = [200, 400, 100, 600]
-
+// to pass the array as parameter
 function returnSecondValue(getArray){
     return getArray[1]
 }

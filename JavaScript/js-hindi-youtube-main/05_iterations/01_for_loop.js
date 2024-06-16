@@ -37,7 +37,7 @@ for (let index = 0; index < myArray.length; index++) {
 //     }
 //    console.log(`Value of i is ${index}`);
     
-// }
+// } //stops the loop
 
 for (let index = 1; index <= 20; index++) {
     if (index == 5) {
@@ -46,4 +46,4 @@ for (let index = 1; index <= 20; index++) {
     }
    console.log(`Value of i is ${index}`);
     
-}
+} // skips one iteration

@@ -43,7 +43,7 @@ if (true) {
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
-
+// ways to declare functions.
 console.log(addone(5))
 
 function addone(num){

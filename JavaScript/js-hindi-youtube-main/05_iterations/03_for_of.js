@@ -15,7 +15,7 @@ for (const greet of greetings) {
 }
 
 // Maps
-
+// key value pair, in same orders as inserted, no repetition of value
 const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")
@@ -38,3 +38,4 @@ const myObject = {
 //     console.log(key, ':-', value);
     
 // }
+//objects ko aise acces nhi kr skte loop mai.
