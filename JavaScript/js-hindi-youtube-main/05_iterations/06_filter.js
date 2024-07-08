@@ -6,14 +6,27 @@
 //     return item
 // } )
 
+// forEach cannot return any value, kuch bhi krlo nhi krega uska mann nahi.
+
 // console.log(values);
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// Filter is used to return the values, overcoming the problem of forEach.
+// callback function mai value and condition deni hoti hai.(Mandatory) 
+
+//const newNums = myNums.filter( (num) => num > 4)
+// yeh implicit return hai, apne aap value return krega.
 
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
 
+// yeh explicit return hai, manually karni pdhegi return, because {} use karey hai.
+// agar direct ya () use karke likha hota toh apne aap return kar deta.
+
+
+// if same chiz forEach se karni hai toh, pehle empty array banao then loop mai condition laga ke value push kardo.
 // const newNums = []
 
 // myNums.forEach( (num) => {
@@ -24,6 +37,9 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // console.log(newNums);
 
+
+
+// kaise actually handle krte hai filter ko real life example mai.
 
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },

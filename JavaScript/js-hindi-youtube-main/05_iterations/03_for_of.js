@@ -24,7 +24,7 @@ map.set('IN', "India")
 
 
 // console.log(map);
-
+// in maps only forof loop can be used.
 for (const [key, value] of map) {
     // console.log(key, ':-', value);
 }
