@@ -3,7 +3,7 @@
 // reduce is a method of array
 // initial value ko bhejna pdhta hai (,) ke baad.....jo ek starting point deta hai
 
-
+// do paramters hote hai, [(accumulator, currentvalue), initialvalue]
 
 const myNums = [1, 2, 3]
 
