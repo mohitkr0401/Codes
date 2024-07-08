@@ -1,5 +1,7 @@
 const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+// same as filter but iterate every element, filter condition ke according karta hai......isme condition nhi hoti.
+
 // const newNums = myNumers.map( (num) => { return num + 10})
 
 const newNums = myNumers

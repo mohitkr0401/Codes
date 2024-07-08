@@ -53,9 +53,9 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userBooks = books.filter( (bk) => bk.genre === 'History')
+  let userBooks = books.filter( (bk) => bk.genre === 'History')  // implicit retun ke sath
 
   userBooks = books.filter( (bk) => { 
     return bk.publish >= 1995 && bk.genre === "History"
-})
+}) // explicit return ke sath.
   console.log(userBooks);
