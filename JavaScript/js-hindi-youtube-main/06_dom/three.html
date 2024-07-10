@@ -17,7 +17,11 @@
     div.setAttribute("title", "generated title")
     div.style.backgroundColor = "green"
     div.style.padding = "12px"
+
+    // isse text add kar rhe hai, but two round trip lagti hai, pehle DOM se leke aayega then usme add krega(Overwrite).
     // div.innerText = "Chai aur code"
+
+    // upar wali same chiz ho rhi niche ki 2 lines mai, difference nhi hai, apne upar hai jaise marzi karlo.
     const addText = document.createTextNode("Chai aur code")
     div.appendChild(addText)
 

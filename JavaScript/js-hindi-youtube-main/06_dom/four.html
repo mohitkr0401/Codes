@@ -12,6 +12,7 @@
     </ul>
 </body>
 <script>
+    // small projects ke liye acha hai, but optimised nhi hai, har baar pura tree traverse karna pdhta hai.
     function addLanguage(langName){
         const li = document.createElement('li');
         li.innerHTML = `${langName}`
@@ -20,6 +21,8 @@
     addLanguage("python")
     addLanguage("typescript")
 
+    //more optimised way, seedha add kar denge node ko , big projects mai aise use hota.
+    //good practice to use appendChild instead of innerHTML.
     function addOptiLanguage(langName){
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))
@@ -27,6 +30,7 @@
     }
     addOptiLanguage('golang')
 
+    // sab tareeke hai edit karne ke koi bhi use kr skte hai, as long as project work krey.
     //Edit
     const secondLang = document.querySelector("li:nth-child(2)")
     console.log(secondLang);
