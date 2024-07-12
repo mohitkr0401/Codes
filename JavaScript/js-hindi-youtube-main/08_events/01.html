@@ -19,13 +19,20 @@
    </div>
 </body>
 <script>
+    // Three approaches  hai click event ko karne ki 
+    // ek directly html mai onclick=alert('Owl clicked') likh do.......Not a good approach
+
+    // 2. onclick
+    // 3. addEventListener
+
     // document.getElementById('owl').onclick = function(){
     //     alert("owl clicked")
     // }
 
-     // attachEvent()
-    // jQuery - on
+     // attachEvent(), internet explorer ke time use hota tha ab nhi hota
+    // jQuery - on // react se pehle yeh use hota tha
 
+    //inn sab ke bare mai pdhna hai, for interview purpose and project building.
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
     // clientX, clientY, screenX, screenY
@@ -33,31 +40,35 @@
 
     // document.getElementById('images').addEventListener('click', function(e){
     //     console.log("clicked inside the ul");
-    // }, false)
+    // }, false) 
+    // yeh false and true debnote karta hai event propagation.
+    // false=bubbling(bottom to top), true=capturing(top to bottom)
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
     //     e.stopPropagation()
     // }, false)
     
+
+    // default action ko kaise prevent karter hai
     // document.getElementById('google').addEventListener('click',function(e){
-    //     e.preventDefault();
-    //     e.stopPropagation()
+    //     e.preventDefault(); //link pr click krne se ab google open nhi hoga
+    //     e.stopPropagation() // propagation ko rok deta hai, matlab bas ek hi chiz execute hogi
     //     console.log("google clicked");
     // }, false)
    
-    
+    // if click on the image, then remove the image.
     document.querySelector('#images').addEventListener('click', function(e){
-        console.log(e.target.tagName);
-        if (e.target.tagName === 'IMG') {
+        console.log(e.target.tagName); // will return IMG for images.
+        if (e.target.tagName === 'IMG') { // strict checking for image only.
             console.log(e.target.id);
-            let removeIt = e.target.parentNode
-            removeIt.remove()
-        }
+            let removeIt = e.target.parentNode // (e) event hai, (target) jis image par click kara hai, (parentNode) uss image ka parent node which is 'li'
+            removeIt.remove() // removing the item
+        } // checking isliye kari, if 'li' pr hi click kara then uska parent 'ul' hoga toh puri list hi delete ho jayegi.
     
         
     })
     
-    //removeIt.parentNode.removeChild(removeIt)
+    //removeIt.parentNode.removeChild(removeIt) // one more way to remove the item
 </script>
 </html>
