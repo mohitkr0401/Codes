@@ -1,5 +1,12 @@
 #include <bits/stdc++.h> 
 using namespace std;
+
+// Brute force
+// just sort the array and return the last element.
+// time complexity = O(nlogn)
+
+// optimal 
+// time complexit = O(n)
 class Solution
 {
 public:
