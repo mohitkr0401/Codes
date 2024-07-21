@@ -34,52 +34,74 @@ for (int i = 0; i < n; i++)
 
 // optimal
 //  time complexity = O(n)
-
-int largest = arr[0];
-int second_largest = -1;
-for (int i = 0; i < n; i++)
+int secondLarge(vector<int> arr, n)
 {
-    if (arr[i] > largest)
+    int largest = arr[0];
+    int second_largest = -1;
+    for (int i = 0; i < n; i++)
     {
-        second_largest = largest;
-        largest = arr[i];
+        if (arr[i] > largest)
+        {
+            second_largest = largest;
+            largest = arr[i];
+        }
+        else if (arr[i] > second_largest && arr[i] < largest)
+        {
+            second_largest = arr[i];
+        }
     }
-    else if (arr[i] > second_largest)
-    {
-        second_largest = arr[i];
-    }
+    return second_largest;
 }
 
-    vector<int> getSecondOrderElements(int n, vector<int> a)
+int secondSmall(vector<int> arr, n)
+{
+    int smallest = arr[0];
+    int second_smallest = INT_MAX;
+    for (int i = 0; i < n; i++)
     {
-
-        int min = INT_MAX;
-        int smin = INT_MAX;
-        int max = INT_MIN;
-        int smax = INT_MIN;
-
-        for (int i = 0; i < n; i++)
+        if (arr[i] < smallest)
         {
-            if (a[i] < min)
-            {
-                smin = min;
-                min = a[i];
-            }
-            else if (a[i] > min && a[i] < smin)
-            {
-                smin = a[i];
-            }
-
-            if (a[i] > max)
-            {
-                smax = max;
-                max = a[i];
-            }
-
-            else if (a[i] < max && a[i] > smax)
-            {
-                smax = a[i];
-            }
+            second_smallest = smallest;
+            smallest = arr[i];
         }
-        return {smax, smin};
+        else if (arr[i] < second_smallest && arr[i] > smallest)
+        {
+            second_smallest = arr[i];
+        }
     }
+    return second_smallest;
+}
+
+vector<int> getSecondOrderElements(int n, vector<int> a)
+{
+
+    int min = INT_MAX;
+    int smin = INT_MAX;
+    int max = INT_MIN;
+    int smax = INT_MIN;
+
+    for (int i = 0; i < n; i++)
+    {
+        if (a[i] < min)
+        {
+            smin = min;
+            min = a[i];
+        }
+        else if (a[i] > min && a[i] < smin)
+        {
+            smin = a[i];
+        }
+
+        if (a[i] > max)
+        {
+            smax = max;
+            max = a[i];
+        }
+
+        else if (a[i] < max && a[i] > smax)
+        {
+            smax = a[i];
+        }
+    }
+    return {smax, smin};
+}
