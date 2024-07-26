@@ -54,10 +54,28 @@ int missingNumber2(int arr[], int n)
 //  space complexity = O(1)
 int missingNumber3(int arr[], int n)
 {
-    int sum = 0;
+    int sum = (n*(n+1))/2;
+    int sum2=0;
     for (int i = 0; i < n; i++)
     {
-        sum += arr[i];
+        sum2 += arr[i];
     }
+    return sum - sum2;
 }
-// incomplete
+
+// approach 2 using xor
+//  time complexity = O(n)
+//  space complexity = O(1)
+// this approach is slightly better than sum approach as, when calculating the sum the value can cross the limit of integer, but in xor it will always stay in integer limit. 
+int missingNumber4(int arr[], int n)
+{
+    int xor1 = 0, xor2 = 0;
+    int N = n - 1;
+    for (int i = 0; i < N; i++)
+    {
+        xor2 = xor2 ^ arr[i];
+        xor1 = xor1 ^ (i + 1);
+    }
+    xor1 = xor1 ^ N;
+    return xor1 ^ xor2;
+}
