@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div id="profile-container">
+            <div id="profile-name">Alex Johnson</div>
+            <div id="contact-info">
+                <a href="mailto:alex.johnson.dev@example.com">
+                    <img src="images/gmail.png" alt="Email Icon"> alex.johnson.dev@example.com
+                </a>
+                <a href="tel:+9876543210">
+                    <img src="images/phone-call.png" alt="Phone Icon"> +9876543210
+                </a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <img src="images/boy.png" alt="Profile Image" id="profile-image">
+        <h2>Alex Johnson</h2>
+        <p>Alex Johnson is a versatile software developer with a strong background in both front-end and back-end
+            technologies. With experience in languages like C++, Java, Python, and expertise in web development with
+            HTML, CSS, JavaScript, and Node.js, Alex brings a robust skill set to the table. Passionate about coding and
+            problem-solving, Alex has worked on various projects ranging from web applications to complex algorithms,
+            consistently delivering high-quality work.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box"><img src="images/c-.png" alt="Skill 1">
+                <p>C++</p>
+                <p>5 years</p>
+            </div>
+            <div class="skill-box"><img src="images/java.png" alt="Skill 2">
+                <p>Java</p>
+                <p>4 years</p>
+            </div>
+
+            <div class="skill-box"><img src="images/python.png" alt="Skill 3">
+                <p>Python</p>
+                <p>3 years</p>
+            </div>
+
+            <div class="skill-box"><img src="images/html.png" alt="Skill 4">
+                <p>HTML</p>
+                <p>4 years</p>
+            </div>
+
+            <div class="skill-box"><img src="images/css-3.png" alt="Skill 5">
+                <p>CSS</p>
+                <p>3.5 years</p>
+            </div>
+
+            <div class="skill-box"><img src="images/js.png" alt="Skill 6">
+                <p>JavaScript</p>
+                <p>3 years</p>
+            </div>
+
+            <div class="skill-box"><img src="images/nodejs.png" alt="Skill 7">
+                <p>Node.js</p>
+                <p>2 years</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>AlgoMaster</h3>
+            <p>A desktop application developed using C++ for visualizing and optimizing various algorithms. The tool
+                allows users to input their own data and see how different sorting, searching, and pathfinding
+                algorithms perform. Features include real-time visualization and performance analysis, making it a
+                valuable tool for both learning and research purposes.</p>
+        </div>
+        <div class="project">
+            <h3>WeatherWise</h3>
+            <p>A web application built using HTML, CSS, JavaScript, and Node.js that provides real-time weather updates
+                and forecasts. Users can search for any location worldwide to receive accurate weather information. The
+                application also features an interactive map, customizable weather alerts, and a blog section for
+                weather-related news.</p>
+        </div>
+        <div class="project">
+            <h3>TaskMaster Pro</h3>
+            <p>A task management app developed using Java and Python, designed to help teams collaborate more
+                effectively. The app includes features like task assignments, deadlines, progress tracking, and
+                integration with calendar apps. The backend is powered by a Python-based REST API, while the Android
+                client is built using Java.</p>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="recommendations-section">
+        <h2>Recommendations</h2>
+        <div class="recommendation-container">
+            <div class="recommendation-box">
+                <p>"Working with Alex was a great experience. His ability to understand complex problems and come up
+                    with
+                    efficient solutions is commendable. He consistently delivered high-quality code, and his
+                    contributions
+                    were crucial to the success of our project."
+                    <br>- Emily Roberts, Project Manager at Tech Solutions
+                </p>
+            </div>
+            <div class="recommendation-box">
+                <p>"Alex has a deep understanding of both front-end and back-end technologies. His work on the
+                    WeatherWise
+                    project was nothing short of outstanding. He took the project from concept to completion with
+                    minimal
+                    supervision, showing great initiative and creativity."
+                    <br>- Michael Lee, Senior Developer at Web Innovators
+                </p>
+            </div>
+            <div class="recommendation-box">
+                <p>"Alex is one of the most dedicated developers I've worked with. His passion for coding and his
+                    attention
+                    to detail were evident in every project he worked on. Whether it was debugging complex code or
+                    developing new features, Alex always went above and beyond."
+                    <br>- Sarah Davis, Lead Developer at CodeCraft
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- New Recommendation Input -->
+    <section id="leave-recommendation">
+        <h2>Leave a Recommendation</h2>
+        <div id="new-recommendation">
+            <input type="text" id="recommender-name" placeholder="Name (Optional)">
+            <textarea id="recommendation-input" placeholder="Message"></textarea>
+            <button id="submit-recommendation">Submit</button>
+        </div>
+    </section>
+
+    <!-- Pop-up Confirmation -->
+    <div id="popup" class="popup">
+        <p>Thanks for leaving a recommendation!</p>
+        <button id="close-popup">Ok</button>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Alex Johnson. All rights reserved.</p>
+        <p>Connect with me on <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+
+    </footer>
+    <a href="#profile-container" class="home-icon">
+        <img src="images/top.png" alt="Home">
+    </a>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

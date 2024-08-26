@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+#profile-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact-info a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#contact-info a img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle; /* Align the icon with the text */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#about {
+    padding: 20px;
+}
+
+#profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+
+
+#skills {
+    padding: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-box {
+    flex: 1 1 calc(33% - 40px);
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skill-box img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#projects, #recommendations {
+    padding: 20px;
+}
+
+.project, .recommendation {
+    margin-bottom: 20px;
+}
+
+#new-recommendation {
+    margin-top: 20px;
+}
+
+#new-recommendation input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#new-recommendation button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+#popup p {
+    margin: 0;
+    font-size: 18px;
+}
+
+#popup button {
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+#home-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.home-icon {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.home-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Leave a Recommendation Section Styling */
+#leave-recommendation {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#new-recommendation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#new-recommendation input,
+#new-recommendation textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#new-recommendation button {
+    padding: 10px 20px;
+    background-color: #9933FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+
+#new-recommendation button:hover {
+    background-color: #8000FF;
+}
+
+/* Recommendations Section Styling */
+#recommendation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.recommendation {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Recommendations Section Styling */
+/* .recommendations-section {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.recommendations-section h2 {
+    color: #800080;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+} */
+
+/* Styling the recommendation boxes */
+.recommendation-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.recommendation-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Adjust width to ensure 2-3 recommendations per row */
+    box-sizing: border-box;
+    flex: 1 1 calc(33.333% - 20px); /* Makes sure three fit in a row, adjusting for gaps */
+}
+
+.recommendation-box p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.recommendation-box p:last-child {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Pop-up Styling */
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F5E6FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-align: center;
+}
+
+#popup p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#popup button {
+    padding: 10px 20px;
+    background-color: #9933FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
