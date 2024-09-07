@@ -5,12 +5,13 @@ document.getElementById('submit-recommendation').addEventListener('click', funct
     if (recommendationText) {
         // Create a new div element for the recommendation
         const newRecommendation = document.createElement('div');
-        newRecommendation.classList.add('recommendation');
+        // newRecommendation.setAttribute("class", "recommendation-box");
+        newRecommendation.classList.add('recommendation-box');
         // newRecommendation.innerHTML = `<p>"${recommendationText}" ${recommenderName ? `- ${recommenderName}` : ''}</p>`;
         newRecommendation.innerHTML = '<p>"' + recommendationText + '"</p><p>- '+ recommenderName +'</p>';
 
         // Append the new recommendation to the recommendation list
-        document.getElementById('recommendations').appendChild(newRecommendation);
+        document.getElementById('recommendation-container').appendChild(newRecommendation);
 
         // Show the popup
         document.getElementById('popup').style.display = 'block';
@@ -27,3 +28,10 @@ document.getElementById('submit-recommendation').addEventListener('click', funct
 document.getElementById('close-popup').addEventListener('click', function() {
     document.getElementById('popup').style.display = 'none';
 });
+
+function scrollToTop() {
+    window.scrollTo({
+        top:0,
+        behavior: 'smooth'
+    });
+}
