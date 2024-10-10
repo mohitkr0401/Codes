@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">          
+
+    <title>Form</title>
+</head>
+<body>
+    <script>
+        function submitted() {
+            alert("Form is Submitted!!")
+        }
+    </script>
+    <form action="#" onsubmit="submitted()">
+        First Name <input type="text" name="fname"><br><br>
+
+        Last Name <input type="text" name="lname"><br><br>
+
+        Email <input type="email" name="email"><br><br>
+
+        DOB <input type="datetime-local" name="dob"><br><br>
+
+        Work Experience <br>0<input type="range" min="0" max="10" name="experience" id="experience">10<br><br>
+
+        Gender <br><input type="radio" name="gender">Male
+        <br><input type="radio" name="gender" id=""> Female <br><br>
+
+        State <br><select name="state" value="State">
+            <option value="none" hidden selected>Select State</option>
+            <option value="Delhi">Delhi</option>
+            <option value="UP">UP</option>
+            <option value="MP">MP</option>
+            <option value="MH">MH</option>
+        </select><br><br>
+        Skills:
+        <br>
+        <input type="checkbox">HTML<br>
+        <input type="checkbox">CSS<br>
+        <input type="checkbox">React <br>
+        <input type="checkbox">Javascript <br><br>
+        
+        <fieldset>
+            <legend>Message</legend>
+        <textarea name="message" placeholder="Message"></textarea>
+        </fieldset><br>
+
+        <input type="submit" name="submit">
+        
+
+    </form>
+</body>
+</html>
