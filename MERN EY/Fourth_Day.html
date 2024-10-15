@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading</h1>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <script>
+        // document.write("Welcome<br>");
+        // console.log("World")
+        // let a =10;
+        // let str1 = 'Edunet<br>'; 
+        // let str2 = "Value of a : ${a}<br>";
+        // let str3 = `Value of a : ${a}<br>`;
+        // document.write(str1);
+        // document.write(str2);
+        // document.write(str3);
+        // document.write(`<input type="text" placeholder="Enter Name">`)
+        // let a=10;
+        // if (a%2==0) {
+        //     document.write("Even")
+        // } else {
+        //     document.write("Odd")
+        // }
+        // let n = 10;  
+        // for (let index = 1; index <= 10; index++ ) {
+        //     document.write(`${n} X ${index} = ${n*index}<br>`)       
+        // }
+
+        // let j=1;
+        // while (j<=10) {
+        //     document.write(`${n} X ${j} = ${n*j}<br>`)
+        //     j++;
+        // }
+
+
+        //Patterns 
+       
+       
+        // let n = 4;
+        // for (let row = 1; row <=n; row++) {
+        //     for(let col = 1; col<=n;col++){
+        //         if(col>=1 && col <=n-row)
+        //             document.write(`&nbsp;&nbsp`);
+        //         else
+        //             document.write("*");
+        //     }
+        //     document.write(`<br>`)
+            
+        // }
+
+        // let n = 10;
+        // for (let row = 1; row <=n; row++) {
+        //     for(let col = 1; col<=n;col++){
+        //         if(col>= n-row+1 && col <=n+row-1)
+        //         document.write("*");
+        //         else
+        //         document.write(`&nbsp;`);
+        //     }
+        //     document.write(`<br>`)
+            
+        // }
+
+        
+        let n = 5; //will only work with odd values
+        for (let row = 1; row <=n; row++) {
+            for(let col = 1; col<=n;col++){
+                if(row==1 || row ==n)
+                    document.write("*");
+                else if(col == n-row+1)
+                    document.write("*");
+                else
+                    document.write(`&nbsp;&nbsp`);
+            }
+            document.write(`<br>`)
+            
+        }
+    </script>
+</body>
+</html>
