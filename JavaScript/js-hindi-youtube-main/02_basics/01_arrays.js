@@ -32,7 +32,8 @@ const myArr2 = new Array(1, 2, 3, 4)
 // splice method - used to change the contents of an array by removing or replacing existing elements and/or adding new elements in place
 
 
-
+// we can use splice to add new elements also
+myArr.splice(2,0,22,44,55,66) //this will delete 0 element from 2 to 0 then insert new elements from 2.
 console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3) // returns  a new arrray and does not affect the original one, but not including end index
