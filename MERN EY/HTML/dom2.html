@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id ="p1">Para1</p>
+    <p id ="p2">Para2</p>
+
+    <button onclick="abc()">Style 1</button>
+    <button onclick="style2()">Style 2</button>
+
+    <script>
+        function abc(){
+            document.getElementById("p1").setAttribute('style','border: 5px solid red; padding:10px;')
+            
+        }
+        function style2(){
+            document.getElementById("p2").setAttribute('style', 'border: 3px solid green; padding: 8px;')
+        }
+    </script>
+</body>
+</html>
