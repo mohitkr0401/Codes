@@ -1,13 +1,18 @@
 import { useEffect, useState } from "react";
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import CompA from './component/CompA'
 // import CompB from './component/CompB'
 // import Card from './component/Card'
 // import ImageDisplay from './component/ImageDisplay'
 // import EventExample from './component/EventExample'
 import Counter from "./component/Counter";
-import Form from "./component/Form";
-
+import "./App.css";
+import Login from "./component/Login";
+import Navbar from "./component/Navbar";
+import Home from "./component/Home";
+import About from "./component/About";
+import Contact from "./component/Contact";
 //type rfc or rfce to get this
 
 // CompB/>
@@ -117,15 +122,15 @@ export default function App() {
         "The domestic goat or simply goat (Capra aegagrus hircus) is a subspecies of C. aegagrus domesticated from the wild goat of Southwest Asia and Eastern Europe. The goat is a member of the animal family Bovidae and the subfamily Caprinae, meaning it is closely related to the sheep. There are over 300 distinct breeds of goat. Goats are one of the oldest domesticated species of animal, and have been used for milk, meat, fur and skins across much of the world. Milk from goats is often turned into goat cheese.",
     },
   ];
-//  const [data, setData] = useState([]);
-//   useEffect(() => {
-//     fetch("www.themealdb.com/api/json/v1/1/filter.php?c=Seafood").then((response) => {
-//       return response.json();
-//     });
-//     .then((d)=>{
-//       return setData(d.meals)
-//     })
-//   });
+  //  const [data, setData] = useState([]);
+  //   useEffect(() => {
+  //     fetch("www.themealdb.com/api/json/v1/1/filter.php?c=Seafood").then((response) => {
+  //       return response.json();
+  //     });
+  //     .then((d)=>{
+  //       return setData(d.meals)
+  //     })
+  //   });
   return (
     // <div className='container mt-2'>
     // <div className='row'>
@@ -143,8 +148,17 @@ export default function App() {
     // </div>
     <div>
       {/* <EventExample/> */}
-      <Counter />
-      <Form/>
+      {/* <Counter />
+      <Form/> */}
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/Home" element={<Home />}></Route>
+          <Route path="/About" element={<About />}></Route>
+          <Route path="/Contact" element={<Contact />}></Route>
+          <Route path="/Login" element={<Login />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
