@@ -21,7 +21,9 @@ let myTimeStamp = Date.now()
 let newDate = new Date()
 console.log(newDate);
 console.log(newDate.getMonth() + 1); // to display month  from 0 - 11, +1 because  we need to get it from 1 -  12
-console.log(newDate.getDay());
+console.log(newDate.getDay()); // to display day from 0 - 6
+console.log(newDate.getDate()); // to display day from 1 - 31
+
 
 
 // `${newDate.getDay()} and the time `
@@ -30,4 +32,5 @@ newDate.toLocaleString('default', {
     weekday: "long",
     
 })
+
 // to modify  the language you can use this code, use ctl + space to see the  options that are available for your keyboard layout

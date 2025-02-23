@@ -24,9 +24,9 @@ const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
 // const obj3 = { obj1, obj2 }
-// const obj3 = Object.assign({}, obj1, obj2, obj4)
+// const obj3 = Object.assign({}, obj1, obj2, obj4) // to merge objects
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = {...obj1, ...obj2} // to merge objects
 // console.log(obj3);
 
 
@@ -43,7 +43,7 @@ const users = [
         id: 1,
         email: "h@gmail.com"
     },
-]
+] //array of objects
 
 users[1].email
 // console.log(tinderUser);
@@ -63,7 +63,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course // to destructure the object
 
 // console.log(courseInstructor);
 console.log(instructor);
@@ -73,7 +73,7 @@ console.log(instructor);
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
-// JASON format, how data is stored in json.
+// JSON format, how data is stored in json.
 
 [
     {},
