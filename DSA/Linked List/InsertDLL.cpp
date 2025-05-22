@@ -23,6 +23,7 @@ class Node
 
 // At head (Start)
 Node* insertBeforeHead(Node* head, int val){
+    if(head==NULL) return new Node(k);
     Node* newNode = new Node(val, head, NULL);
     // if(head!=NULL){
     //     head->prev = newNode;
